@@ -12,5 +12,5 @@ $app->get('/hello/{name}', function (Request $request, Response $response, array
 
 $app->get('/timestamp', function (Request $request, Response $response) {
   $timestamp = date('H:i:s');
-  return $request-getBody()->write($timestamp);
+  return $response-getBody()->write($timestamp);
 });

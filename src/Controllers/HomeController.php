@@ -15,6 +15,6 @@ class HomeController
 
   public function view(Request $request, Response $response, array $args)
   {
-    $this->renderer->render($response, 'index.phtml', $args);
+    return $this->renderer->render($response, 'index.phtml', $args);
   }
 }
