@@ -1,0 +1,107 @@
+html,
+body,
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  margin-top: 23px;
+}
+
+.login-container {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.registration-form-container {
+  width: 420px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.registration-form-container .container > *{
+  display: block;
+  margin-bottom: 6px;
+}
+
+.registration-form-container .container button {
+  margin-left: 280px;
+}
+
+.error-message {
+  color: #CC0000;
+  font-weight: bold;
+}
+
+.dashboard-controls ul {
+  list-style: none;
+}
+
+.dashboard-controls ul li {
+  display: inline-block;
+}
+
+// CSS Stylesheet
+
+header {
+  min-height: 80px;
+}
+
+header > * {
+  height: 74px;
+}
+
+.page-title {
+  width: 40%;
+  float: left;
+}
+
+.page-navigation {
+  width: 30%;
+  float: left;
+}
+
+.header-addition {
+  width: 30%;
+  float: left;
+}
+
+.social-links {
+  width: 100%;
+  float: left;
+}
+
+.date-time {
+  width: 100%;
+  float: left;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+.header-addition {
+  text-align: right;
+}
+
+.header-addition > * {
+  padding-right: 12px;
+}
+
+.title-container {
+  width: 360px;
+  margin: 54px auto 0;
+  text-align: center;
+}

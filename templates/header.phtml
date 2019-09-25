@@ -2,31 +2,33 @@
 <html>
 <head>
   <title>Slim 4 PHP Template</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
   <header>
     <div>
-      <h1>Slim 4 PHP Template</h1>
-    </div>
-    <div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Support</li>
-        </ul>
-      </nav>
-    </div>
-    <div>
-      <div>
-        <ul>
-          <li>
-            Twitter
-          </li>
-          <li>
-            Facebook
-          </li>
-          <li>
+      <div class="page-title">
+        <h1>Slim 4 PHP Template</h1>
+      </div>
+      <div class="page-navigation">
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Support</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-addition">
+        <div>
+          <ul>
+            <li>
+              Twitter
+            </li>
+            <li>
+              Facebook
+            </li>
+            <li>
             Youtube
           </li>
           <li>
@@ -35,11 +37,11 @@
         </ul>
       </div>
       <div>
-        <div id="timestamp">
-          <?php echo date('H:i:s'); ?>
+        <div id="currentTime">
+         <span><?php echo date('H:i:s'); ?></span>
         </div>
-        <div>
-          <?php echo date('d/m/Y'); ?>
+        <div id="currentDate">
+          <span><?php echo date('d/m/Y'); ?></span>
         </div>
       </div>
     </div>
